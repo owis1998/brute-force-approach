@@ -2,7 +2,7 @@
 python program to get optimal solution for traveling salesman problem
 
 i used brute force approche, the time complexity is O(n!) !! it takes to much.
-i represented the cities as a graph in dictionary, any argument pass to the algorithm function should be a dic and list of vertex, like this:
+note that any argument pass to the algorithm function should be a list of vertex and dic represents adjacency list, like this:
 
 vertices_list = ['B', 'C', 'D', 'E', 'F', 'G', 'H']
 adj_list = {
