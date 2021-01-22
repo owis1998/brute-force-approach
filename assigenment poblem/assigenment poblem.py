@@ -29,8 +29,8 @@ def get_all_possible_combinations(my_list):
 
 	return possible_combinations
 
-
-def get_minimum_total_cost(jops_array):
+# arr should be n*n
+def algorithm(jops_array):
 	my_list = [i for i in range(1, len(jops_array) + 1)]
 	possible_combinations = get_all_possible_combinations(my_list)
 	minimum_cost = 1e9
